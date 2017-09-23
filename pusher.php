@@ -1,7 +1,7 @@
 <?php
   require __DIR__ . '/vendor/autoload.php';
-  include(__DIR__ . '/config/pusher.php');
-  include(__DIR__ . '/config/database.php');
+  include(__DIR__ . '/credentials/pusher.php');
+  include(__DIR__ . '/credentials/database.php');
 
   $data['message'] = 'Message received';
   $data['data'] = $_REQUEST;
