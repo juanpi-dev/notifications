@@ -1,6 +1,7 @@
 {
     "require": {
         "pusher/pusher-php-server": "^3.0",
-        "hellogerard/jobby": "^3.3"
+        "hellogerard/jobby": "^3.3",
+        "mongodb/mongodb": "^1.1"
     }
 }
